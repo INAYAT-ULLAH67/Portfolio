@@ -29,27 +29,28 @@ function Home() {
   return (
     <div className="bg-white overflow-x-hidden">
       {/* Hero */}
+{/* Hero */}
       <section className="px-5 sm:px-6 md:px-12 lg:px-24 xl:px-40 pt-10 sm:pt-16 md:pt-24 pb-12 sm:pb-20 md:pb-28">
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
+          
           {/* Left: intro */}
-          <div className="text-center md:text-left">
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <span className="inline-block px-3 py-1 rounded-full bg-zinc-50 border border-zinc-200 text-xs font-mono text-zinc-500 mb-5 sm:mb-6">
               Available for work
             </span>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium text-zinc-900 leading-tight mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium text-zinc-900 leading-tight mb-4 w-full">
               I build things with{' '}
               <span className="font-mono text-zinc-500">Python</span> and the web.
             </h1>
-            <p className="text-zinc-500 text-sm sm:text-base md:text-lg mb-7 sm:mb-8 max-w-md mx-auto md:mx-0">
+            <p className="text-zinc-500 text-sm sm:text-base md:text-lg mb-7 sm:mb-8 max-w-md w-full">
               Python developer with a strong grip on data structures, algorithms,
               and OOP — now growing into frontend work with React and modern CSS.
             </p>
             
-            {/* FIXED: Readded the missing opening <a> tag here */}
             <a
               href="/resume.pdf"
               download
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-linear-to-r from-zinc-950 to-zinc-500 text-zinc-50 hover:text-zinc-200 text-sm font-medium pl-5 pr-2 py-2 rounded-full transition-colors"
+              className="inline-flex items-center justify-center gap-2.5 bg-linear-to-r from-zinc-950 to-zinc-500 text-zinc-50 hover:text-zinc-200 text-sm font-medium pl-5 pr-2 py-2 rounded-full transition-colors shadow-xs"
             >
               Download CV
               <span className="w-7 h-7 rounded-full bg-white flex items-center justify-center shrink-0">
@@ -63,7 +64,7 @@ function Home() {
           </div>
 
           {/* Right: terminal card */}
-          <div className="bg-zinc-950 rounded-2xl p-4 sm:p-6 shadow-xl w-full max-w-md mx-auto md:max-w-none">
+          <div className="bg-zinc-950 rounded-2xl p-4 sm:p-6 shadow-xl w-full max-w-md md:max-w-none mx-auto">
             <div className="flex gap-1.5 mb-4">
               <span className="w-3 h-3 rounded-full bg-zinc-700"></span>
               <span className="w-3 h-3 rounded-full bg-zinc-700"></span>
