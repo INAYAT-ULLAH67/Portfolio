@@ -18,7 +18,7 @@ function Footer() {
           Have a project in mind or just want to say hi? My inbox is always open.
         </p>
         <Link
-          to="/contact"
+          to="/contact-us"
           className="flex items-center gap-2.5 bg-white text-zinc-900 hover:bg-zinc-200 text-sm font-medium pl-5 pr-2 py-2 rounded-full transition-colors"
         >
           Get in touch
