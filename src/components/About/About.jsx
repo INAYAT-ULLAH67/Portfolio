@@ -8,16 +8,15 @@ function About() {
         <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-start">
           {/* Photo placeholder */}
           <div className="md:col-span-1 flex justify-center md:justify-start">
-            <div className="w-40 h-40 sm:w-48 sm:h-48 rounded-2xl bg-zinc-100 border border-zinc-200 flex items-center justify-center text-zinc-400 text-sm font-mono">
-
+            {/* Photo */}
+          <div className="md:col-span-1 flex justify-center md:justify-start">
             <img
-                src="public/inayat_full.jpg"
-                alt="Inayat Ullah"
-                className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-2xl object-cover border border-zinc-200/80 shadow-xl"
-                loading="lazy"
+              src="/inayat_full.jpg"
+              alt="Inayat Ullah"
+              className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-2xl object-cover border border-zinc-200/80 shadow-xl"
+              loading="lazy"
             />
-
-            </div>
+          </div>
           </div>
 
           {/* Text */}
