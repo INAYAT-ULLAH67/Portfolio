@@ -126,7 +126,7 @@ function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="px-5 sm:px-6 md:px-12 lg:px-24 xl:px-40 py-12 sm:py-16">
+      {/* <section className="px-5 sm:px-6 md:px-12 lg:px-24 xl:px-40 py-12 sm:py-16">
         <h2 className="text-xl sm:text-2xl font-medium text-zinc-900 mb-2">What people say</h2>
         <p className="text-sm sm:text-base text-zinc-500 mb-8 sm:mb-10">
           Feedback from mentors and peers I've worked with.
@@ -148,7 +148,7 @@ function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
