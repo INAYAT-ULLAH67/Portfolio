@@ -8,7 +8,6 @@ function Footer() {
 
   return (
     <footer className="bg-zinc-950 text-zinc-400 px-6 md:px-12 lg:px-24 xl:px-40 pt-16 pb-8">
-      
       {/* Top CTA */}
       <div className="flex flex-col items-center text-center border-b border-zinc-800 pb-12 mb-10">
         <h2 className="text-3xl md:text-4xl font-medium text-white mb-3">
@@ -32,7 +31,6 @@ function Footer() {
 
       {/* Main grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-        
         {/* Brand */}
         <div className="col-span-2 md:col-span-1">
           <div className='text-2xl text-white font-mono mb-2'>.<b>I</b>nayat</div>
@@ -63,13 +61,13 @@ function Footer() {
               GitHub
             </button>
             <button
-              onClick={() => openLink('https://linkedin.com/in/your-linkedin')}
+              onClick={() => openLink('https://www.linkedin.com/in/inayat-ullah-994847343')}
               className="text-left hover:text-white transition-colors cursor-pointer bg-transparent p-0"
             >
               LinkedIn
             </button>
             <button
-              onClick={() => openLink('mailto:your-email@example.com')}
+              onClick={() => openLink('mailto:ullah55.492@gmail.com')}
               className="text-left hover:text-white transition-colors cursor-pointer bg-transparent p-0"
             >
               Email
