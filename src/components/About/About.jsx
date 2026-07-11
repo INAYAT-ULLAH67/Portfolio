@@ -11,7 +11,7 @@ function About() {
             <div className="w-40 h-40 sm:w-48 sm:h-48 rounded-2xl bg-zinc-100 border border-zinc-200 flex items-center justify-center text-zinc-400 text-sm font-mono">
 
             <img
-                src="/inayat_full.jpg"
+                src="public/inayat_full.jpg"
                 alt="Inayat Ullah"
                 className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-2xl object-cover border border-zinc-200/80 shadow-xl"
                 loading="lazy"
