@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <Header />
+      
       <Outlet />
       <Footer />
       <div className="empty my-10 md:hidden"></div>
