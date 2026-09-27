@@ -185,30 +185,6 @@ function Home() {
 
 
 
-      {/* Testimonials */}
-      {/* <section className="px-5 sm:px-6 md:px-12 lg:px-24 xl:px-40 py-12 sm:py-16">
-        <h2 className="text-xl sm:text-2xl font-medium text-zinc-900 mb-2">What people say</h2>
-        <p className="text-sm sm:text-base text-zinc-500 mb-8 sm:mb-10">
-          Feedback from mentors and peers I've worked with.
-        </p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-          {testimonials.map((t) => (
-            <div key={t.name} className="border border-zinc-200 rounded-2xl p-5 sm:p-6 flex flex-col justify-between">
-              <p className="text-zinc-600 text-sm leading-relaxed mb-6">"{t.quote}"</p>
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-full bg-zinc-900 text-white flex items-center justify-center text-xs font-mono shrink-0">
-                  {t.name.split(' ').map((n) => n[0]).join('')}
-                </div>
-                <div>
-                  <p className="text-sm font-medium text-zinc-900">{t.name}</p>
-                  <p className="text-xs text-zinc-500">{t.role}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section> */}
     </div>
   )
 }
