@@ -7,7 +7,28 @@ function Home() {
     { category: 'Frontend', items: ['React', 'CSS Grid', 'Flexbox','tailwindCss'] },
     { category: 'Frameword worked on', items: ['Django'] },
   ]
-
+   const repos = [
+    {
+      name: 'DSA-Python',
+      description: 'Practice implementations of core data structures and algorithms — arrays, linked lists, stacks, queues, trees, sorting, and searching.',
+      link: 'https://github.com/INAYAT-ULLAH67/DSA-Python',
+    },
+    {
+      name: 'OOP-in-Python',
+      description: 'A reference repo breaking down OOP pillars — encapsulation, inheritance, polymorphism, and abstraction — into clean, modular scripts.',
+      link: 'https://github.com/INAYAT-ULLAH67/OOP-in-Python',
+    },
+    {
+      name: 'SocketProgramming',
+      description: 'Networking experiments with raw Python sockets, including a client-server chat room and a basic bind shell.',
+      link: 'https://github.com/INAYAT-ULLAH67/SocketProgramming',
+    },
+    {
+      name: 'ReactComponents',
+      description: 'A sandbox for building and testing reusable React components with Vite.',
+      link: 'https://github.com/INAYAT-ULLAH67/ReactComponents',
+    },
+  ]
   const testimonials = [
     {
       quote: "Inayat writes clean, well-structured code and genuinely understands the problem before jumping to a solution.",
@@ -124,6 +145,45 @@ function Home() {
           ))}
         </div>
       </section>
+
+      
+            {/* Featured Repos */}
+      <section className="px-5 sm:px-6 md:px-12 lg:px-24 xl:px-40 py-12 sm:py-16">
+        <h2 className="text-xl sm:text-2xl font-medium text-zinc-900 mb-2">Some things I've built</h2>
+        <p className="text-sm sm:text-base text-zinc-500 mb-8 sm:mb-10">
+          A few repos from my GitHub — practice logs, experiments, and reusable code.
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+          {repos.map((repo) => (
+            
+             <a key={repo.name}
+              href={repo.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-white border border-zinc-200 rounded-2xl p-5 sm:p-6 hover:border-zinc-400 transition-colors"
+            >
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="font-mono text-sm sm:text-base text-zinc-900">{repo.name}</h3>
+                <svg
+                  width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                  className="text-zinc-400 group-hover:text-zinc-900 transition-colors shrink-0"
+                >
+                  <path d="M7 17L17 7" />
+                  <path d="M7 7h10v10" />
+                </svg>
+              </div>
+              <p className="text-xs sm:text-sm text-zinc-500 leading-relaxed">
+                {repo.description}
+              </p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+
+
 
       {/* Testimonials */}
       {/* <section className="px-5 sm:px-6 md:px-12 lg:px-24 xl:px-40 py-12 sm:py-16">

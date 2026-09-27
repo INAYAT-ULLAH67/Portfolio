@@ -4,22 +4,23 @@ function Projects() {
   // 1. Project Data Store with 'type' classifications
   const projectData = [
     {
-      title: "SimpleDBMS with Tkinter",
-      description: "A custom Database Management System featuring automatic file system creation, dynamic field configuration, granular CRUD record operations, database listing, and robust internal value-based search functionality.",
-      tags: ["Python", "Tkinter", "GUI Design", "File Management", "DBMS"],
-      category: "Backend & DB",
-      type: "Academic",
-      liveLink: null,
-      githubLink: "https://github.com/INAYAT-ULLAH67",
+      title: "Personal Portfolio Website",
+      description: "A responsive personal portfolio built with React and Vite, showcasing projects, skills, and experience with a fast, component-driven architecture and modern development tooling.",
+      tags: ["React", "Vite", "JavaScript", "Tailwind CSS"],
+      category: "Frontend",
+      type: "Self-Initiated",
+      liveLink: "https://portfolio-eight-beta-rx1t1yln1h.vercel.app",
+      githubLink: "https://github.com/INAYAT-ULLAH67/Portfolio",
     },
+ 
     {
       title: "Car Rental System",
       description: "A full-stack vehicle rental platform featuring intuitive fleet management tools, active booking constraints, automated rental history ledger tracking, and an analytical dashboard for monitoring revenue metrics.",
       tags: ["Django", "Python", "Bootstrap", "Full Stack"],
       category: "Backend & DB",
       type: "Academic",
-      liveLink: null, 
-      githubLink: "https://github.com/INAYAT-ULLAH67",
+      liveLink:"https://lnkd.in/p/dGwZixGh", 
+      
     },
     {
       title: "File Compression Tool",
@@ -46,7 +47,7 @@ function Projects() {
       category: "Frontend",
       type: "Self-Initiated",
       liveLink: null, 
-      githubLink: "https://github.com/INAYAT-ULLAH67",
+      githubLink: "https://github.com/INAYAT-ULLAH67/ReactMiniProjects/tree/main/currancyConverter",
     },
     {
       title: "Password Generator",
@@ -55,7 +56,7 @@ function Projects() {
       category: "Frontend",
       type: "Self-Initiated",
       liveLink: null, 
-      githubLink: "https://github.com/INAYAT-ULLAH67",
+      githubLink: "https://github.com/INAYAT-ULLAH67/ReactMiniProjects/tree/main/passwordGenerator",
     },
     {
       title: "Regulated Power Supply",
